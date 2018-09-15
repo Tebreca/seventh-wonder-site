@@ -1,0 +1,12 @@
+.headerimg{
+    width: 100%;
+}
+body {
+    margin: 0;
+    overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
