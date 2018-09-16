@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <title>Seventh Wonder - Home</title>
     <link type="text/css" rel="stylesheet" href="./style/main.css">
+    <script src="js/navigate.js"></script>
 </head>
 <body>
-    <img src="http://www.seventhwonder.se/images/Seventh%20Wonder%20-%20Promopic%20September%202016.jpg" class="headerimg">
+    <img src="http://www.seventhwonder.se/images/Seventh%20Wonder%20-%20Promopic%20September%202016.jpg" class="headerimg" style="margin: 0">
+    <img src="http://i.imgur.com/CM7en.jpg" style="margin: 0; width: 100%">
     <div id="menuBar">
-        <ul>
-            <li class="menuItem"></li>
-            <li class="menuItem"></li>
+        <ul id="menu">
+            <li class="menuItem" onclick="home()">Home</li>
+            <li class="menuItem" onclick="about()">About</li>
+            <li class="menuItem" onclick="releases()">Releases</li>
+            <li class="menuItem" onclick="concerts()">Concerts</li>
         </ul>
     </div>
 </body>
