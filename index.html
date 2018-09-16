@@ -5,9 +5,12 @@
     <title>Seventh Wonder - Home</title>
     <link type="text/css" rel="stylesheet" href="./style/main.css">
     <script src="js/navigate.js"></script>
+    <script src="js/home/main.js"></script>
 </head>
-<body>
+<body onscroll="onscroll()">
+    <div id="cropper" style="width: 100%">
     <img src="http://www.seventhwonder.se/images/Seventh%20Wonder%20-%20Promopic%20September%202016.jpg" class="headerimg" style="margin: 0">
+    </div>
     <img src="http://i.imgur.com/CM7en.jpg" style="margin: 0; width: 100%">
     <div id="menuBar">
         <ul id="menu">
@@ -16,6 +19,12 @@
             <li class="menuItem" onclick="releases()">Releases</li>
             <li class="menuItem" onclick="concerts()">Concerts</li>
         </ul>
+    </div>
+
+    <div id="content">
+        <!--
+        Main page content
+        -->
     </div>
 </body>
 </html>
